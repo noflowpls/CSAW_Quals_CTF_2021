@@ -8,7 +8,7 @@ First i thought This challenge will be XSS. But my one teammate told me that The
 # idea_for_solution
 
 So we knew that is SSTI injection. By the problem is we can't inject any code. There is a blacklist. not allowed list:  _ ,config ,os, RUNCMD, base
-F**k. They didn't allowed the os. This is a big problem. But can bypass this with encoding. So the problem is what encoding we need to use?. I used the unicode encoding to solve.
+F**k. They didn't allowed the os. This is a big problem. But we can bypass this with encoding. So the real problem is what encoding we need to use?. I used the unicode encoding to solve.
 
 # Solution
 I used the (lipsum) built in function of jinja2 and i used (attr) to bypass (underscores). and i used some other functions and i encode it with unicode.
