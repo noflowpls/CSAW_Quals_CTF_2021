@@ -23,6 +23,7 @@ So i used this payload and it worked. we successfully login to the website. and 
 
 # Payloads
 original_payload = (admin'or 1=1 -- -)
+
 edited_payload = (admin'or/**/1=1/**/--/**/-)
 
 # Flag
